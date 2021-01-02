@@ -1,0 +1,18 @@
+{% extends "main/header.html" %}
+
+<!-- Title of the Page -->
+{% block title %}
+    <title>Login</title>
+{% endblock title %}
+
+<!-- Main Body -->
+{% block content %}
+    <form action="" method="post">
+        {% csrf_token %}
+        {{form.as_p}}
+
+        <button class="btn red waves-effect waves-light lighten-2" type="submit">Login</button>    
+    </form>
+    
+    <p>Don't have an account, <a href="/register"><strong>Sign Up</strong></a> here.</p>
+{% endblock content %}
