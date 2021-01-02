@@ -1,3 +1,3 @@
 # Django-Tutorial-Blog
 
-![Django Tutorials Blog](https://github.com/ravjotkaamra/Django-Tutorial-Blog/blob/master/django.gif)
+![Django Tutorials Blog](https://github.com/ravjotkaamra/Django-Tutorial-Blog/blob/master/django2.gif)
